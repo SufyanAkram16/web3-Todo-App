@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import TaskAbi from "../build/contracts/TodosContract.json";
+import TaskAbi from "../builds/contracts/TodosContract.json";
 import { TodosContractAddress } from "../config";
 import { ethers } from "ethers";
 import { useToast } from "@chakra-ui/react";
